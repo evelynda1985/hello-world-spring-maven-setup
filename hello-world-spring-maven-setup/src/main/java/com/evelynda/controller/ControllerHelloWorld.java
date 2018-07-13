@@ -4,7 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-//The controller doesn't change
+//The controller doesn't change from annotations way to only Java code
 @Controller
 @RequestMapping("/")
 public class ControllerHelloWorld {
